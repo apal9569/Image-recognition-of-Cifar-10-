@@ -44,6 +44,5 @@ print('Test Accuracy:',test_acc)
 #   os.makedirs(save_dir)
 #model_path = os.path.join(save_dir, model_name)
 #model.save(model_path)
-#print('Saved trained model at %s ' % model_path)
 
 
