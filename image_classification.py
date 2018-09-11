@@ -39,8 +39,11 @@ model.fit(traind,trainl,batch_size=256,epochs=15)
 test_loss, test_acc=model.evaluate(testd,testl,verbose=1)
 print('Test Accuracy:',test_acc)
 
-pred=model.predict(testd[1:],batch_size=128)
-print('predicted values:',pred)
-
+#for saving model and weights
+#if not os.path.isdir(save_dir):
+#   os.makedirs(save_dir)
+#model_path = os.path.join(save_dir, model_name)
+#model.save(model_path)
+#print('Saved trained model at %s ' % model_path)
 
 
