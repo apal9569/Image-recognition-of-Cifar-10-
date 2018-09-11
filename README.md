@@ -4,4 +4,4 @@ Original dataset and info: https://www.cs.toronto.edu/~kriz/cifar.html for more 
 
 
 This test is performed with a accuracy:0.7447
-Accuracy can be improved by increasing epochs or by using different optimizer function
+Accuracy can be improved by increasing epochs.
