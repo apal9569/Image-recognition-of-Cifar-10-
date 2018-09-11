@@ -1,4 +1,4 @@
-# Image-recognition-of-Cifar-10-
+# Classification Cifar-10 using Keras(CNN)
 Cifar-10 classification
 Original dataset and info: https://www.cs.toronto.edu/~kriz/cifar.html for more information
 
